@@ -1,8 +1,8 @@
 const categoryList = [
     {
         id: 1,
-        path: "/",
-        title: "Home",
+        path: "/business",
+        title: "Business",
     },
     {
         id: 2,
@@ -33,11 +33,6 @@ const categoryList = [
         id: 6,
         path: "/technology",
         title: "Technology",
-    },
-    {
-        id: 7,
-        path: "/business",
-        title: "Business",
     },
 ];
 

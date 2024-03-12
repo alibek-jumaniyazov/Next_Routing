@@ -39,11 +39,11 @@ export default function page({ params: { name, title } }: Props) {
 
     return (
         <div>
-            <div className="flex flex-col p-3 w-[400px] bg-slate-700 text-white cursor-pointer">
+            <div className="flex flex-col p-3 w-full gap-4">
                 <img
                     src={news?.urlToImage}
                     alt=""
-                    className="w-[400px] h-[200px]"
+                    className="w-[1000px] h-[400px]"
                 />
                 <p>{news?.author}</p> <br />
                 <span>{news?.title}</span>

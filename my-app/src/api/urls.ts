@@ -3,6 +3,7 @@ export const API_MODE = "/top-headlines/category";
 
 export const urls = {
     get: {
-       category: (category:string) => `${category}/us.json`
+       category: (category:string) => `/${category}/us.json`,
+       categoryID: (category:string) => `/${category}/us.json`
     },
 };

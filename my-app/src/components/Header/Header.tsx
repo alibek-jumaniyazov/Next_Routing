@@ -8,7 +8,7 @@ export default function Header({}: Props) {
 
     return (
         <div className="Header">
-            <div className="categorys">
+            <div className="categorys flex gap-4 p-6">
                 {categoryList.map((item) => (
                     <Link href={`/category/${item.path}`} key={item.id}>
                         {item.title}

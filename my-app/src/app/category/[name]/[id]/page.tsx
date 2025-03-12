@@ -26,6 +26,7 @@ export default function page({ params: { name, title } }: Props) {
     const [news, setNews] = useState<TNews>();
 
     console.log(title, name);
+    
     useEffect(() => {
         async function getContent() {
             const response = await getNewsCategory({ name });
